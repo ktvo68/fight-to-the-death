@@ -76,7 +76,6 @@ module.exports = class Tournament {
     while (totalNumTurns > 0 && player1Health > 0 && player2Health > 0) {
 
       totalNumTurns--
-      let dodge = false
       let res = {}
       // to determine if the current slapper gets to slap or loses the turn
       currentSlapper = this.verifyCurrentSlapper(currentSlapper, player1, player2, player1Attacks, player2Attacks)
