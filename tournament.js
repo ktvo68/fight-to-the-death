@@ -56,7 +56,7 @@ module.exports = class Tournament {
 
   roundFight(player1, player2, player1Health, player2Health) {
     // this method records all the slapping activities in the round
-    // the round stops one fighter passes out or everybody gets a turn per specification.
+    // the round stops when one fighter passes out or when everybody gets all of their turns per specification.
 
     let roundPlayByPlay = []
     let roundResult = {}
