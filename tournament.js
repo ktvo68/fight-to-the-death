@@ -4,7 +4,6 @@ module.exports = class Tournament {
     this.name = name
     this.fighters = []
     this.tournamentDetails = {}
-    this.tally = {}
   }
 
   register(fighters) {
